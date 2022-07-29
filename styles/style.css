@@ -94,6 +94,23 @@ hr.light{
 
 .carousel {
     margin: 0 auto;
+    width: 70%;
+    height: 70%;
+  }
+
+  .carousel img{
+
+    width: 70%;
+    height: 70%;
+  }
+  
+  #previous {
+    color:red;
+  }
+  
+  a .carousel-control.next {
+    color:red;
+    margin-right: 25px;
   }
 
 
@@ -103,7 +120,5 @@ hr.light{
     }
 }
 @media (min-width:1000px){
-    .carousel{
-        width: 50%;
-    }
+
 }
